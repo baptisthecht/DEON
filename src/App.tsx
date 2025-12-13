@@ -7,7 +7,7 @@ function App() {
 	const [showStageIn, setShowStageIn] = useState(true);
 
 	useEffect(() => {
-		const timeout = setTimeout(() => setShowStageIn(false), 1800);
+		const timeout = setTimeout(() => setShowStageIn(false), 1900);
 		return () => clearTimeout(timeout);
 	}, []);
 

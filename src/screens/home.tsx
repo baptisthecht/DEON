@@ -15,7 +15,7 @@ export function Home() {
 						transition={{
 							duration: 2.5,
 							ease: [0.22, 1, 0.36, 1],
-							delay: 0.3,
+							delay: 0.4,
 						}}>
 						<Title />
 					</motion.div>
@@ -27,7 +27,7 @@ export function Home() {
 							transition={{
 								duration: 2.5,
 								ease: [0.22, 1, 0.36, 1],
-								delay: 0.3,
+								delay: 0.4,
 							}}>
 							<Subtitle />
 						</motion.div>
@@ -37,7 +37,7 @@ export function Home() {
 							transition={{
 								duration: 2.5,
 								ease: [0.22, 1, 0.36, 1],
-								delay: 0.3,
+								delay: 0.4,
 							}}>
 							<Description />
 						</motion.div>

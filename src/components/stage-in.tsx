@@ -22,7 +22,7 @@ export function StageIn({ isVisible }: StageInProps) {
 				transition={{
 					duration: 2,
 					ease: "linear",
-					delay: 1.5,
+					delay: 1.6,
 				}}>
 				{/* Vient d'en haut */}
 				<motion.div
