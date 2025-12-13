@@ -35,9 +35,23 @@ export function ScreenManager() {
 		return () => window.removeEventListener("wheel", onWheel);
 	}, [index]);
 
+	const scrollRef = useRef<HTMLDivElement>(null);
+	const scrollProgress = index / (SCREENS.length - 1);
+
 	return (
 		<motion.div className="w-screen h-screen overflow-hidden relative">
 			<motion.div
+				id="scroll-indicator"
+				className="fixed top-0 left-0 right-0 h-2 bg-black z-50"
+				animate={{ scaleX: scrollProgress }}
+				style={{ originX: 0 }}
+				transition={{
+					duration: 0.75,
+					ease: [0.65, 0, 0.35, 1],
+				}}
+			/>
+			<motion.div
+				ref={scrollRef}
 				animate={{ y: `-${index * 100}vh` }}
 				transition={{
 					duration: 0.75,

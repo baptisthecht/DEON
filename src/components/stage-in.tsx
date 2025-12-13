@@ -22,7 +22,7 @@ export function StageIn({ isVisible }: StageInProps) {
 				transition={{
 					duration: 2,
 					ease: "linear",
-					delay: 1.1,
+					delay: 1.5,
 				}}>
 				{/* Vient d'en haut */}
 				<motion.div
@@ -34,6 +34,7 @@ export function StageIn({ isVisible }: StageInProps) {
 					transition={{
 						duration: 1,
 						ease: [0.76, 0, 0.24, 1],
+						delay: 0.5,
 					}}>
 					<DeonLeft
 						className="stroke-white size-20"
@@ -50,6 +51,7 @@ export function StageIn({ isVisible }: StageInProps) {
 					transition={{
 						duration: 1,
 						ease: [0.76, 0, 0.24, 1],
+						delay: 0.5,
 					}}>
 					<DeonRight
 						className="stroke-white size-20"
