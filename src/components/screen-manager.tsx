@@ -1,0 +1,56 @@
+import { motion } from "motion/react";
+import { useEffect, useRef, useState } from "react";
+import { Branding } from "../screens/branding";
+import { Branding2 } from "../screens/branding-2";
+import { Clients } from "../screens/clients";
+import { Home } from "../screens/home";
+import { Maya } from "../screens/maya";
+import { Monogramme } from "./monogramme";
+
+const SCREENS = [Home, Branding, Branding2, Maya, Clients];
+
+export function ScreenManager() {
+	const [index, setIndex] = useState(0);
+	const isAnimating = useRef(false);
+
+	useEffect(() => {
+		const onWheel = (e: WheelEvent) => {
+			e.preventDefault();
+			if (isAnimating.current) return;
+
+			if (e.deltaY > 0 && index < SCREENS.length - 1) {
+				setIndex((i) => i + 1);
+			}
+			if (e.deltaY < 0 && index > 0) {
+				setIndex((i) => i - 1);
+			}
+
+			isAnimating.current = true;
+			setTimeout(() => {
+				isAnimating.current = false;
+			}, 900);
+		};
+
+		window.addEventListener("wheel", onWheel, { passive: false });
+		return () => window.removeEventListener("wheel", onWheel);
+	}, [index]);
+
+	return (
+		<motion.div className="w-screen h-screen overflow-hidden relative">
+			<motion.div
+				animate={{ y: `-${index * 100}vh` }}
+				transition={{
+					duration: 0.75,
+					ease: [0.65, 0, 0.35, 1],
+				}}
+				className="w-screen">
+				{SCREENS.map((Screen, i) => (
+					<div key={i} className="w-screen h-screen">
+						<Screen />
+					</div>
+				))}
+			</motion.div>
+			<Monogramme index={index} setIndex={setIndex} />
+		</motion.div>
+	);
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "./assets/fonts/fonts.css";
+
+body {
+	font-family: "Avenir Next", sans-serif;
+}
+
+html,
+body,
+* {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar,
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	display: none;
+}
+
+html,
+body,
+* {
+	scroll-behavior: smooth;
+}
+
+strong {
+	font-weight: 600;
+}

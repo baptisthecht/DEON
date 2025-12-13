@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "Avenir Next";
+	src: url("./avenir/AvenirNext-DemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Next";
+	src: url("./avenir/AvenirNext-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Next";
+	src: url("./avenir/AvenirNext-UltraLight.ttf") format("truetype");
+	font-weight: 200;
+	font-style: normal;
+}
