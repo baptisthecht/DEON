@@ -43,11 +43,14 @@ export function ScreenManager() {
 
 		const onTouchEnd = () => {
 			if (isAnimating.current) return;
-			
+
 			const swipeDistance = touchStart.current - touchEnd.current;
 			const minSwipeDistance = 50; // Distance minimale pour détecter un swipe
 
-			if (swipeDistance > minSwipeDistance && index < SCREENS.length - 1) {
+			if (
+				swipeDistance > minSwipeDistance &&
+				index < SCREENS.length - 1
+			) {
 				// Swipe vers le haut
 				setIndex((i) => i + 1);
 				isAnimating.current = true;
@@ -83,7 +86,7 @@ export function ScreenManager() {
 	const scrollProgress = index / (SCREENS.length - 1);
 
 	return (
-		<motion.div className="w-screen h-screen overflow-hidden relative">
+		<motion.div className="w-dvw h-dvh overflow-hidden relative">
 			<motion.div
 				id="scroll-indicator"
 				className="fixed top-0 left-0 right-0 h-2 bg-black z-50"
