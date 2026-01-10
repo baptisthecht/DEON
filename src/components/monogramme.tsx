@@ -46,7 +46,7 @@ export function Monogramme({
 							ease: [0.65, 0, 0.35, 1],
 						}}>
 						<Title
-							className="scale-75 pl-6! pt-0! -mt-3.5 text-neutral-500"
+							className="scale-75 pl-6! pt-0! -mt-2.5 text-neutral-500"
 							noDeon
 						/>
 					</motion.div>
