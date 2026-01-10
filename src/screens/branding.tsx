@@ -39,7 +39,7 @@ export function Branding() {
 					monde où les marques ne jouent plus à séduire, mais à
 					comprendre. Je crois à un marché où les marques osent être
 					vraies, cohérentes, singulières — parce qu’elles écoutent
-					profondément leurs clien
+					profondément leurs clients.
 				</p>
 				<p>
 					<strong>Ma conviction est profonde</strong> : je crois que
