@@ -5,47 +5,55 @@ export function Branding2() {
 		<Screen>
 			<main className="flex flex-col p-4 lg:p-20 gap-6 lg:gap-12 w-screen h-screen justify-center snap-start text-xs lg:text-base">
 				<p>
-					Alors, DÉON a fait un choix radical : il analyse et
-					transforme les insights en une promesse unique, en une
-					stratégie efficace, en une identité cohérente et en des
-					expériences enthousiasmantes qui marquent les esprits.
+					Diplômé d’une École Nationale de Design Visuel Art et
+					Communication, <strong>Patrick Déon crée DÉON</strong> :
+					conseil en stratégie de marque où il applique sa propre
+					méthodologie de travail « 
+					<strong>Creative Design Branding®</strong> » pour
+					accompagner les directions d’entreprises et les porteurs de
+					projets sur le management de leurs marques.
 				</p>
 
 				<p>
-					Pepsi ne sera jamais Coca-Cola. Samsung ne sera jamais
-					Apple. Plus la promesse d'une marque lui est propre, plus
-					cette marque devient inattaquable. Jusqu'à être
-					inatteignable. Inexpugnable. Découvrir ensemble le sens de
-					votre marque, votre enseigne, votre entreprise, découvrir sa
-					raison d'être particulière, c'est découvrir sa force.
+					Fondateur et Entrepreneur depuis plus de 30 ans, — de la
+					Petite Entreprise en 1996 aux Fous du R.O.I en 2003 puis
+					Territoire de marque en 2014 —{" "}
+					<strong>
+						DÉON développe une vision globale et transversale du
+						management de la marque.
+					</strong>
 				</p>
 
 				<p>
-					Votre image révèle votre personnalité dans vos produits, vos
-					services, votre relationnel-client, votre communication. Il
-					vous faut la connaître pour la maîtriser, la maîtriser pour
-					l'unifier et la sublimer. Elle créera alors l'attachement
-					subjectif qui générera pour votre marque un territoire
-					affectif sans cesse plus profond et plus large.
+					Curieux et indépendant d’esprit, Patrick revendique
+					volontiers son rôle{" "}
+					<strong>« d’empêcheur de tourner en rond »</strong> : il
+					accompagne{" "}
+					<strong>
+						les entreprises et les institutions pour les aider à
+						clarifier leurs choix et à piloter leurs marques
+					</strong>
+					avec justesse : Cevinoglass, Cermix, Intellimind, TEC, TLM
+					Volley, TEC.B, MEL, CAPH, ADEME, CFTC, OSE Roubaix,
+					L’Avant-Poste, Mode in Roubaix, Mairie de Roubaix, Mairie de
+					Lompret, Mairie d’Avesnelles…
 				</p>
 
 				<p>
-					Parce que votre raison d'être vous est propre, vous apportez
-					ce que les autres n'apportent pas : à chaque fois que votre
-					marque parle par la voix de ses produits, de ses services ou
-					de ses hommes, elle doit raconter et prouver cette
-					différence. Vous instaurez alors un lien de confiance
-					unique, affectif autant que rationnel avec vos clients qui
-					ont besoin de vérifier votre promesse.
-				</p>
-				<p>
-					Pouvoir comprendre la raison d'être de votre activité.
-					Savoir exprimer son sens aux yeux de ceux qu'elle va
-					satisfaire. Être capable de construire un discours objectif
-					et adéquat, c'est réunir les bases d'un passage réussi à des
-					actions de communication accélératrices de performance,
-					constitutives de croissance pérenne, créatrices d'un
-					territoire de marque unique.
+					En parallèle,{" "}
+					<strong>
+						il enseigne depuis plus de 25 ans dans des écoles de
+						communication, de commerce et de marketing
+					</strong>{" "}
+					(Université de Lille IAE, INFOCOM Roubaix et ISCOM Lille),
+					où il forme les étudiants en Licence et en Master 1 & 2 en
+					communication, commerce et marketing. Il y partage{" "}
+					<strong>
+						a passion pour la culture des marques, la création, la
+						conduite de projets, la rédaction scientifique
+					</strong>{" "}
+					pour publication, l’accompagnement des mémoires et le suivi
+					des alternants/tuteurs en entreprise.
 				</p>
 			</main>
 		</Screen>

@@ -7,7 +7,7 @@ import { Title } from "../components/title";
 export function Home() {
 	return (
 		<Screen>
-			<main className="flex flex-col lg:flex-row gap-6 lg:gap-10 w-screen h-screen justify-between snap-start">
+			<main className="flex flex-col lg:flex-row gap-6 lg:gap-10 w-screen h-screen justify-between snap-start relative">
 				<div className="flex flex-col gap-6 lg:gap-10 justify-end p-4 lg:p-20 shrink-0">
 					<motion.div
 						initial={{ y: 70 }}
@@ -57,6 +57,9 @@ export function Home() {
 					alt="Deon"
 					className="size-full object-cover"
 				/>
+				<div className="absolute bg-black bottom-32 -right-20 text-white rotate-270 p-3 text-xs">
+					Photo : Marc-Antoine Redien® 
+				</div>
 			</main>
 		</Screen>
 	);

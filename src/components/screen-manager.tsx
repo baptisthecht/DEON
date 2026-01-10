@@ -1,13 +1,11 @@
 import { motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { Branding } from "../screens/branding";
-import { Branding2 } from "../screens/branding-2";
-import { Clients } from "../screens/clients";
 import { Home } from "../screens/home";
 import { Maya } from "../screens/maya";
 import { Monogramme } from "./monogramme";
 
-const SCREENS = [Home, Branding, Branding2, Maya, Clients];
+const SCREENS = [Home, Branding, Maya];
 
 export function ScreenManager() {
 	const [index, setIndex] = useState(0);
@@ -111,7 +109,7 @@ export function ScreenManager() {
 					</div>
 				))}
 			</motion.div>
-			<Monogramme index={index} setIndex={setIndex} />
+			<Monogramme index={index} setIndex={setIndex} full={index === 2} />
 		</motion.div>
 	);
 }
