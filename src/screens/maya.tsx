@@ -79,7 +79,7 @@ export function Maya() {
 						Master 1 & 2 en communication, commerce et marketing. Il
 						y partage{" "}
 						<strong>
-							a passion pour la culture des marques, la création,
+							sa passion pour la culture des marques, la création,
 							la conduite de projets, la rédaction scientifique
 						</strong>{" "}
 						pour publication, l’accompagnement des mémoires et le

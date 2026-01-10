@@ -49,7 +49,7 @@ export function Branding2() {
 					où il forme les étudiants en Licence et en Master 1 & 2 en
 					communication, commerce et marketing. Il y partage{" "}
 					<strong>
-						a passion pour la culture des marques, la création, la
+						sa passion pour la culture des marques, la création, la
 						conduite de projets, la rédaction scientifique
 					</strong>{" "}
 					pour publication, l’accompagnement des mémoires et le suivi
