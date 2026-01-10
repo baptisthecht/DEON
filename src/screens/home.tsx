@@ -57,7 +57,7 @@ export function Home() {
 					alt="Deon"
 					className="size-full object-cover"
 				/>
-				<div className="absolute bg-black bottom-32 -right-20 text-white rotate-270 p-3 text-xs">
+				<div className="absolute bottom-28 -right-14 lg:text-xs lg:-right-20 text-white rotate-270 p-3 text-[8px]">
 					Photo : Marc-Antoine Redien® 
 				</div>
 			</main>

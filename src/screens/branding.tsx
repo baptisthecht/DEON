@@ -54,6 +54,7 @@ export function Branding() {
 						aujourd’hui et pour demain.
 					</strong>
 				</p>
+				<div className="h-28 lg:hidden" />
 			</main>
 		</Screen>
 	);
