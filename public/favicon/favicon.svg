@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="260"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="260"><svg viewBox="0 0 200 260" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M100 20 A90 90 0 0 1 100 200"></path>
+  <path d="M100 60 A90 90 0 0 0 100 240"></path>
+  <path d="M100 20 L100 240"></path>
+</svg></svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
