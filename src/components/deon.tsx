@@ -10,7 +10,7 @@ export function Deon({
 			viewBox="0 0 200 260"
 			className={className}
 			fill="none"
-			stroke="currentColor"
+			stroke="#000000"
 			strokeWidth={strokeWidth}
 			strokeLinecap="round"
 			strokeLinejoin="round">

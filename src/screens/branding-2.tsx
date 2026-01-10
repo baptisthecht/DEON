@@ -32,7 +32,7 @@ export function Branding2() {
 					<strong>
 						les entreprises et les institutions pour les aider à
 						clarifier leurs choix et à piloter leurs marques
-					</strong>
+					</strong>{" "}
 					avec justesse : Cevinoglass, Cermix, Intellimind, TEC, TLM
 					Volley, TEC.B, MEL, CAPH, ADEME, CFTC, OSE Roubaix,
 					L’Avant-Poste, Mode in Roubaix, Mairie de Roubaix, Mairie de
