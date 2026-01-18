@@ -3,9 +3,9 @@ import { Screen } from "../components/screen";
 export function Maya() {
 	return (
 		<Screen>
-			<main className="flex flex-col w-screen h-screen snap-start text-xs lg:text-base">
+			<main className="flex flex-col w-screen h-screen snap-start text-xs md:text-sm lg:text-lg xl:text-base">
 				<div className="flex relative">
-					<div className="w-[45%] max-h-60 lg:max-h-none lg:w-1/4  shrink-0 relative">
+					<div className="w-[45%] md:w-[40%] lg:w-[35%] max-h-60 md:max-h-72 lg:max-h-80 xl:max-h-none xl:w-1/4 shrink-0 relative">
 						<img
 							src="/images/2.webp"
 							loading="lazy"
@@ -13,11 +13,11 @@ export function Maya() {
 							alt="Deon"
 							className="w-full h-full object-cover object-top"
 						/>
-						<div className="absolute bottom-10 -right-11 text-white rotate-270 p-3 text-[6px] ">
+						<div className="absolute bottom-10 md:bottom-12 lg:bottom-14 -right-11 md:-right-12 lg:-right-14 text-white rotate-270 p-3 text-[6px] md:text-[7px] lg:text-[8px]">
 							Photo : Marc-Antoine Redien® 
 						</div>
 					</div>
-					<div className="flex flex-col justify-center gap-8 pb-0 lg:pb-20 lg:mt-4 lg:p-20 h-min p-4">
+					<div className="flex flex-col justify-center gap-6 md:gap-7 lg:gap-8 pb-0 md:pb-8 lg:pb-12 xl:pb-20 xl:mt-4 h-min p-4 md:p-8 lg:p-12 xl:p-20">
 						<p>
 							Diplômé d’une École Nationale de Design Visuel Art
 							et Communication,{" "}
@@ -42,7 +42,7 @@ export function Maya() {
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-col gap-5 lg:gap-12 p-4 lg:p-20">
+				<div className="flex flex-col gap-5 md:gap-7 lg:gap-10 xl:gap-12 p-4 md:p-8 lg:p-12 xl:p-20">
 					<p className="block md:hidden">
 						Fondateur et Entrepreneur depuis plus de 30 ans, — de la
 						Petite Entreprise en 1996 aux Fous du R.O.I en 2003 puis

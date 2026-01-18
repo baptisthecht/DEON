@@ -3,7 +3,7 @@ import { Screen } from "../components/screen";
 export function Branding2() {
 	return (
 		<Screen>
-			<main className="flex flex-col p-4 lg:p-20 gap-6 lg:gap-12 w-screen h-screen justify-center snap-start text-xs lg:text-base">
+			<main className="flex flex-col p-4 md:p-8 lg:p-12 xl:p-20 gap-6 md:gap-8 lg:gap-10 xl:gap-12 w-screen h-screen justify-center snap-start text-xs md:text-sm lg:text-lg xl:text-base">
 				<p>
 					Diplômé d’une École Nationale de Design Visuel Art et
 					Communication, <strong>Patrick Déon crée DÉON</strong> :

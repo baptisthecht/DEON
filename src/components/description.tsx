@@ -1,6 +1,6 @@
 export function Description() {
 	return (
-		<div className="flex flex-col gap-2 text-xs lg:text-base">
+		<div className="flex flex-col gap-2 text-xs md:text-sm lg:text-lg xl:text-base">
 			<p>
 				DÉON « Ce qu’il convient de faire. »
 				<br />

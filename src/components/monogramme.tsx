@@ -16,7 +16,7 @@ export function Monogramme({
 			{index !== 0 && (
 				<motion.div
 					onClick={() => setIndex(0)}
-					className="fixed bottom-0 right-0 p-4 lg:p-10 cursor-pointer flex flex-col justify-end **:text-black"
+					className="fixed bottom-0 right-0 p-1 md:p-6 lg:p-8 xl:p-10 cursor-pointer flex flex-col justify-end **:text-black"
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					exit={{ opacity: 0 }}
@@ -25,7 +25,7 @@ export function Monogramme({
 						ease: [0.65, 0, 0.35, 1],
 					}}>
 					<Deon
-						className="size-12 lg:size-16 text-black"
+						className="size-10 md:size-14 lg:size-15 xl:size-16 text-black"
 						strokeWidth={4}
 					/>
 					<motion.div

@@ -7,8 +7,8 @@ import { Title } from "../components/title";
 export function Home() {
 	return (
 		<Screen>
-			<main className="flex flex-col lg:flex-row gap-6 lg:gap-10 w-screen h-screen justify-between snap-start relative">
-				<div className="flex flex-col gap-6 lg:gap-10 justify-end p-4 lg:p-20 shrink-0">
+			<main className="flex flex-col lg:flex-row gap-6 md:gap-8 lg:gap-10 xl:gap-10 w-screen h-screen justify-between snap-start relative">
+				<div className="flex flex-col gap-6 md:gap-8 lg:gap-10 xl:gap-10 justify-end p-4 md:p-8 lg:p-12 xl:p-20 shrink-0 lg:w-[45%] xl:w-auto">
 					<motion.div
 						initial={{ y: 70 }}
 						animate={{ y: 0 }}
@@ -20,7 +20,7 @@ export function Home() {
 						<Title />
 					</motion.div>
 
-					<div className="pl-12 lg:pl-16 flex flex-col gap-4 lg:gap-8">
+					<div className="pl-12 md:pl-14 lg:pl-16 xl:pl-16 flex flex-col gap-4 md:gap-6 lg:gap-8 xl:gap-8">
 						<motion.div
 							initial={{ y: 100 }}
 							animate={{ y: 0 }}
@@ -55,9 +55,9 @@ export function Home() {
 					loading="lazy"
 					decoding="async"
 					alt="Deon"
-					className="size-full object-cover"
+					className="size-full object-cover lg:flex-1 lg:min-w-[55%]"
 				/>
-				<div className="absolute bottom-28 -right-14 lg:text-xs lg:-right-20 text-white rotate-270 p-3 text-[8px]">
+				<div className="absolute bottom-28 md:bottom-24 lg:bottom-20 -right-14 md:-right-16 lg:-right-18 xl:text-xs xl:-right-20 text-white rotate-270 p-3 text-[8px] md:text-[9px] lg:text-[10px]">
 					Photo : Marc-Antoine Redien® 
 				</div>
 			</main>

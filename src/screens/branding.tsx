@@ -3,7 +3,7 @@ import { Screen } from "../components/screen";
 export function Branding() {
 	return (
 		<Screen>
-			<main className="flex flex-col p-4 lg:p-20 gap-6 lg:gap-12 w-screen h-screen justify-center snap-start text-xs lg:text-base">
+			<main className="flex flex-col p-2 sm:p-4 md:p-8 lg:p-12 xl:p-20 gap-3 sm:gap-4 md:gap-6 lg:gap-8 xl:gap-12 w-screen h-screen justify-start sm:justify-center snap-start text-xs sm:text-xs md:text-sm lg:text-lg xl:text-base pt-6 sm:pt-4">
 				<p>
 					DÉON propose un accompagnement fondé sur une méthodologie
 					éprouvée – <strong>« Creative Design Branding® »</strong> –
@@ -54,7 +54,7 @@ export function Branding() {
 						aujourd’hui et pour demain.
 					</strong>
 				</p>
-				<div className="h-28 lg:hidden" />
+				<div className="h-8 sm:h-20 md:h-24 lg:h-16 xl:hidden" />
 			</main>
 		</Screen>
 	);

@@ -19,7 +19,7 @@ const clients = [
 export function Clients() {
 	return (
 		<Screen>
-			<main className="flex flex-col p-20 gap-12 w-screen h-screen justify-center snap-start">
+			<main className="flex flex-col p-4 md:p-8 lg:p-12 xl:p-20 gap-6 md:gap-8 lg:gap-10 xl:gap-12 w-screen h-screen justify-center snap-start text-xs md:text-sm lg:text-lg xl:text-base">
 				<div>
 					<strong>
 						<p>PRINCIPAUX CLIENTS :</p>
